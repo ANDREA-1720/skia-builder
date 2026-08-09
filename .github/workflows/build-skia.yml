@@ -1,4 +1,3 @@
-```yaml
 name: Build Skia
 run-name: Build Skia
 
@@ -634,4 +633,3 @@ jobs:
             release-files/*.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
